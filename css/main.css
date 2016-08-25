@@ -1,3 +1,10 @@
 /*escribe aquíi toooooodo lo que se te antoje*/
 .block{display: block;}
 .pt-5{padding-top: 5%;}
+.mb-5{margin-bottom: 5%;}
+
+.b-etapas{
+	width: 100%;
+	padding: 5%;
+}
+img{ width: 100%; }
