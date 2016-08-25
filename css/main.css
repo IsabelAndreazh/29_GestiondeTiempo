@@ -5,12 +5,16 @@
 .pb-3{padding-bottom: 3%;}
 .mb-5{margin-bottom: 5%;}
 .mt-0{margin-top: 0%;}
-.mt-3{margin-top: 10%;}
-
+.mt-10{margin-top: 10%;}
+.mt-3{margin-top: 3%;}
 .bg-gray{background-color: #DED0D0;}
 .bg-black{background-color: #7C7979;}
 .text-white{color: white;}
 .text-amarillo{color: #F3ED3D}
+h1,h3{font-family: 'Baloo Paaji', cursive;}
+p{font-family: 'Muli', sans-serif;}
+header span{border:.1em black solid;
+font-size: .2em}
 .b-etapas{
 	width: 100%;
 	padding: 5%;
@@ -44,7 +48,7 @@ img{ width: 100%; }
 #icono3{background-image: url("../img/3.png");}
 #icono4{background-image: url("../img/4.png");}
 .caja{
-	background-color: rgba(249,108,63,0.7);
+	background-color: rgba(0, 129, 55, 0.9);
 	padding: 14%;
 	opacity: 0.0;
 	height: 100%
@@ -62,9 +66,13 @@ img{ width: 100%; }
 #img2{background-image: url("../img/apps.png");}
 #img3{background-image: url("../img/gestion.jpg");}
 .caja2{
-	background-color: rgba(249,108,63,0.7);
+	background-color: rgba(0, 129, 55, 0.9);
 	padding: 14%;
 	opacity: 0.0;
 	height: 100%
 }
 .caja2:hover{opacity: 1;}
+.enlace:hover{
+box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
