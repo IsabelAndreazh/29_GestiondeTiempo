@@ -8,13 +8,34 @@
 	    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	    <link rel="stylesheet" href="css/main.css">
 	</head>
-	<body>
+	<body  id="fondo">
 		<header>
-			
+			<nav class="navbar navbar-fixed-top bg-black">
+			<div class="container "><!-- menu -->
+			       <div class="navbar-header ">
+			         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"  aria-controls="navbar">
+			            <span class="sr-only">menu</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			         </button>
+			         <a class="navbar-brand" href="#"><h3 class="mt-0 portafolio letra1">GESTION DE TIEMPO</h3></a>
+			       </div>
+			       <div class="collapse navbar-default navbar-right " id="navbar">
+			         <ul class="nav nav-pills ">
+			           <li><a class="letra1 " href="#">DEFINICION</a></li>
+			           <li><a class="" href="#">ETAPAS</a></li>
+			           <li><a class="" href="#">HERRAMIENTAS</a></li>
+			           <li><a class="" href="#">ENLACES</a></li>
+			           <li><a class="" href="#">CONTACTO</a></li>
+			         </ul>
+			       </div>
+			   </div>
+		   </nav>
 		</header>
 		<section><!-- video y descripcion -->
 			<div class="container">
-				<div class="row pt-5">
+				<div class="row mt-3">
 					<div class="col-md-7 col-xs-12">
 						<div class="embed-responsive embed-responsive-16by9">
               			<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/3Uc9nO1_wdo" frameborder="0" allowfullscreen></iframe>
@@ -29,28 +50,52 @@
 				</div>
 			</div>
 		</section>
-		<section><!-- etapas/iconos -->
+		<section class="bg-gray pb-3"><!-- etapas/iconos -->
 			<div class="container">
-				<div class="row pt-5">
+				<div class="row pt-3">
 					<div class="col-lg-12 ">
 						<h3>ETAPAS</h3>
 					</div>
 				</div>
 				<div class="row text-center">
 					<div class="col-lg-3">
-						<span class="glyphicon glyphicon-calendar fa-5x mb-5"></span>
+						<div class="iconos" id="icono1">
+							<div class="caja">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut </p>
+							</div>
+						</div>
 						<a href="http://es.dalecarnegie.com/blog/main/6-claves-dale-carnegie-para-una-buena-gestion-del-tiempo/"><button class="block b-etapas">PLANIFICACION</button></a>
 					</div>
 					<div class="col-lg-3">
-						<span class="glyphicon glyphicon-warning-sign fa-5x mb-5"></span>
+						<div class="iconos" id="icono2">
+							<div class="caja">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut </p>
+							</div>
+						</div>
 						<a href="http://es.dalecarnegie.com/blog/main/6-claves-dale-carnegie-para-una-buena-gestion-del-tiempo/"><button class="block b-etapas">PRIORIZAR</button></a>
 					</div>
 					<div class="col-lg-3">
-						<span class="fa fa-list-ol fa-5x mb-5"></span>
+						<div class="iconos" id="icono3">
+							<div class="caja">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut </p>
+							</div>
+						</div>
 						<a href="http://es.dalecarnegie.com/blog/main/6-claves-dale-carnegie-para-una-buena-gestion-del-tiempo/"><button class="block b-etapas">ORGANIZAR</button></a>
 					</div>
 					<div class="col-lg-3">
-						<span class="fa fa-users fa-5x mb-5"></span>
+						<div class="iconos" id="icono4">
+							<div class="caja">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut </p>
+							</div>
+						</div>
 						<a href="http://es.dalecarnegie.com/blog/main/6-claves-dale-carnegie-para-una-buena-gestion-del-tiempo/"><button class="block b-etapas">LIDERAZGO Y COORDINACION</button></a>
 					</div>
 				</div>
@@ -65,7 +110,7 @@
 				</div>
 				<div class="row ">
 					<div class="col-lg-4 col-xs-12">
-						<a href="http://www.zetasoftware.com/2015/02/administracion-del-tiempo-los-4-cuadrantes-de-stephen-covey/"><img src="img/"></a><!-- matriz covey -->
+						<a href="http://www.zetasoftware.com/2015/02/administracion-del-tiempo-los-4-cuadrantes-de-stephen-covey/"><img src="img/imagen3.png"></a><!-- matriz covey -->
 						<p>La Matriz de Stephen Covey es una herramienta de gestión de tiempo donde se utilizan cuatro cuadrantes de dos dimensiones: importante-no importante (va o no va con mi propósito) y urgente-no urgente (requiere o no atención inmediata).</p>
 					</div>
 					<div class="col-lg-4 col-xs-12">
@@ -80,7 +125,7 @@
 			</div>
 		</section>
 		<section><!-- enlaces -->
-			<div class="container">
+			<div class="container pb-3">
 				<div class="row pt-5">
 					<div class="col-lg-12 ">
 						<h3>ENLACES</h3>
@@ -88,31 +133,31 @@
 				</div>
 				<div class="row ">
 					<div class="col-lg-4">
-						<a href="https://www.youtube.com/watch?v=Knh5RrbJaiw"><button>CURSO</button></a>
+						<a href="https://www.youtube.com/watch?v=Knh5RrbJaiw"><button class="b-enlaces">CURSO</button></a>
 					</div>
 					<div class="col-lg-4">
-						<a href="http://marcaladiferencia.com/20-libros-sobre-productividad/"><button>LIBROS</button></a>
+						<a href="http://marcaladiferencia.com/20-libros-sobre-productividad/"><button class="b-enlaces">LIBROS</button></a>
 					</div>
 					<div class="col-lg-4">
-						<a href="http://www.juegos.com/juegos/gestion-de-tiempo"><button>JUEGOS</button></a>
+						<a href="http://www.juegos.com/juegos/gestion-de-tiempo"><button class="b-enlaces">JUEGOS</button></a>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-4">
-						<a href="https://prezi.com/ow08bjqnq5xf/relacion-entre-la-cultura-y-la-gestion-del-tiempo-vili-petrova-vaseva/"><button>TIEMPO Y CULTURA</button></a>
+						<a href="https://prezi.com/ow08bjqnq5xf/relacion-entre-la-cultura-y-la-gestion-del-tiempo-vili-petrova-vaseva/"><button class="b-enlaces">TIEMPO Y CULTURA</button></a>
 					</div>
 					<div class="col-lg-4">
-						<a href="http://www.formacionprofesional.info/tutoriales-cursos-y-manuales-sobre-gestion-del-tiempo/"><button>TUTORIALES</button></a>
+						<a href="http://www.formacionprofesional.info/tutoriales-cursos-y-manuales-sobre-gestion-del-tiempo/"><button class="b-enlaces">TUTORIALES</button></a>
 					</div>
 					<div class="col-lg-4">
-						<a href="https://www.youtube.com/watch?v=dcqcwac7g58"><button>COACHING</button></a>
+						<a href="https://www.youtube.com/watch?v=dcqcwac7g58"><button class="b-enlaces">COACHING</button></a>
 					</div>
 				</div>
 			</div>
 		</section>
-		<footer>
-			<div class="container">
-				<div class="row pt-5">
+		<footer class="bg-black">
+			<div class="container pb-3">
+				<div class="row pt-3">
 					<div class="col-lg-12">
 						<h3>CONTACTO</h3>
 					</div>

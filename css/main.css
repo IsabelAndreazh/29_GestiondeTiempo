@@ -1,10 +1,48 @@
 /*escribe aquíi toooooodo lo que se te antoje*/
 .block{display: block;}
+.pt-3{padding-top: 3%;}
 .pt-5{padding-top: 5%;}
+.pb-3{padding-bottom: 3%;}
 .mb-5{margin-bottom: 5%;}
+.mt-0{margin-top: 0%;}
+.mt-3{margin-top: 10%;}
+
+.bg-gray{background-color: #DED0D0;}
+.bg-black{background-color: #7C7979;}
 
 .b-etapas{
 	width: 100%;
 	padding: 5%;
+	background-color: #F3ED3D;
+	border: none;
+}
+.b-enlaces{
+	width: 100%;
+	padding: 5%;
+	background-color: #F3ED3D;
 }
 img{ width: 100%; }
+#fondo{
+	background-image: url("../img/back.jpg");
+}
+.letra1{
+	color: black
+}
+.iconos{
+	color: yellow;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
+	width: 	100%;
+}
+#icono1{background-image: url("../img/1.png");}
+#icono2{background-image: url("../img/2.png");}
+#icono3{background-image: url("../img/3.png");}
+#icono4{background-image: url("../img/4.png");}
+.caja{
+	background-color: rgba(249,108,63,0.7);
+	padding: 14%;
+	opacity: 0.0;
+	height: 100%
+}
+.caja:hover{opacity: 1;}
